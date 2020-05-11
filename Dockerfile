@@ -11,7 +11,7 @@ MAINTAINER Huahai Yang <hyang@juji-inc.com>
 RUN \
   apt-get update  && \
   echo "===> install Java"  && \
-  apt-get -y install openjdk-11-jdk  && \
+  apt-get -y install openjdk-11-jdk-headless  && \
   \
   \
   echo "===> clean up..."  && \
